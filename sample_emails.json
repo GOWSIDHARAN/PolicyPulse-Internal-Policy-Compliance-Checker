@@ -1,0 +1,47 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Password Reset",
+    "body": "To reset your password, click the link sent to your email or call support at 1800123456."
+  },
+  {
+    "id": "email_002",
+    "subject": "Confidential Info",
+    "body": "This is confidential and for internal use only. Contact 9876543210."
+  },
+  {
+    "id": "email_003",
+    "subject": "Team Meeting",
+    "body": "Reminder: Team meeting scheduled on 15th August at 10 AM. Join via Zoom link."
+  },
+  {
+    "id": "email_004",
+    "subject": "Invoice Payment",
+    "body": "Please transfer the payment of $1500 to account number 1234567890 by next Friday."
+  },
+  {
+    "id": "email_005",
+    "subject": "New Policy Update",
+    "body": "Review the updated company policy document sent to your registered email."
+  },
+  {
+    "id": "email_006",
+    "subject": "Customer Feedback",
+    "body": "Received positive feedback from customer jane.doe@example.com regarding our service."
+  },
+  {
+    "id": "email_007",
+    "subject": "System Maintenance",
+    "body": "System maintenance is planned on 20th August from 1 AM to 3 AM. Expect downtime."
+  },
+  {
+    "id": "email_008",
+    "subject": "Job Application",
+    "body": "Candidate applied with contact 9123456789. Resume attached."
+  },
+  {
+    "id": "email_009",
+    "subject": "Holiday Schedule",
+    "body": "The office will remain closed on 25th August for the national holiday."
+  }
+]
