@@ -1,0 +1,200 @@
+[
+    {
+        "scanId": "cf5d6f6b-7500-421f-a94c-70a477117d3e",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "f6fbff59-8d3f-476b-9654-1833fc589232",
+        "emailId": "email_002",
+        "subject": "Confidential Info",
+        "flags": [
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "confidential"
+            },
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "internal use only"
+            },
+            {
+                "sentence": "Contact 9876543210",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "9876543210"
+            }
+        ]
+    },
+    {
+        "scanId": "0ae2b5dc-9877-4b83-b8ee-7db742961cf3",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "4c3ab215-d1c8-4b54-b966-ed1bd351b9af",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "c28e0365-5cc5-4dd9-8cbd-518b9f1fd6b9",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "8ae920ac-4d3b-47f0-ad8c-902736b04dce",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "8d7b9c4c-3a3c-4b74-a153-f9236358a402",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "dfe80981-5a73-41d7-b714-379a633ca1e7",
+        "emailId": "email_002",
+        "subject": "Confidential Info",
+        "flags": [
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "confidential"
+            },
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "internal use only"
+            },
+            {
+                "sentence": "Contact 9876543210",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "9876543210"
+            }
+        ]
+    },
+    {
+        "scanId": "29448bd3-5fc9-4104-89c4-dc8706f0af46",
+        "emailId": "email_001",
+        "subject": "Monthly Report",
+        "flags": [
+            {
+                "sentence": "Please send your salary details to hr@example",
+                "rule": "forbidden_term",
+                "term": "salary"
+            }
+        ]
+    },
+    {
+        "scanId": "f7086ea0-bf97-4f3b-805e-ec3d5c69c722",
+        "emailId": "email_003",
+        "subject": "Team Meeting",
+        "flags": []
+    },
+    {
+        "scanId": "d40320ac-cb5a-4690-8889-32416483c7af",
+        "emailId": "email_004",
+        "subject": "Invoice Payment",
+        "flags": [
+            {
+                "sentence": "Please transfer the payment of $1500 to account number 1234567890 by next Friday",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "1234567890"
+            }
+        ]
+    },
+    {
+        "scanId": "09bd3087-fed4-46ac-b512-b5c59e11fc59",
+        "emailId": "email_004",
+        "subject": "Invoice Payment",
+        "flags": [
+            {
+                "sentence": "Please transfer the payment of $1500 to account number 1234567890 by next Friday",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "1234567890"
+            }
+        ]
+    },
+    {
+        "scanId": "e5942f81-244d-4d74-87b1-7374fb7f57b6",
+        "emailId": "email_002",
+        "subject": "Confidential Info",
+        "flags": [
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "confidential"
+            },
+            {
+                "sentence": "This is confidential and for internal use only",
+                "rule": "forbidden_term",
+                "term": "internal use only"
+            },
+            {
+                "sentence": "Contact 9876543210",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "9876543210"
+            }
+        ]
+    },
+    {
+        "scanId": "40dbe4ab-5a11-45fa-a5dc-f3ea21347701",
+        "emailId": "email_004",
+        "subject": "Invoice Payment",
+        "flags": [
+            {
+                "sentence": "Please transfer the payment of $1500 to account number 1234567890 by next Friday",
+                "rule": "pii_pattern",
+                "pattern": "phone",
+                "match": "1234567890"
+            }
+        ]
+    }
+]
