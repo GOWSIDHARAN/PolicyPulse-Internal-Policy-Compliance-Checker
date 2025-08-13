@@ -14,6 +14,24 @@ The system uses a **rule-based scanning engine** to flag:
 * **Restricted terms** — e.g., "confidential", "salary", "internal use only"
 * **Personally Identifiable Information (PII)** — e.g., phone numbers, email addresses, Social Security numbers
 
+* ## Project Structure
+
+PolicyPulse/
+├── app.py
+├── rules/
+│   └── rules.json
+├── data/
+│   └── scan_results.json
+├── sample_emails.json    
+├── utils/
+│   ├── rule_engine.py
+│   ├── email_loader.py
+│   └── scan_manager.py
+├── test_rules.py
+│   
+├── README.md
+└── prompt_log.md
+
 **Built with:**
 
 * Python
@@ -73,4 +91,5 @@ The system uses a **rule-based scanning engine** to flag:
 * Developed a rule engine combining regex and forbidden terms
 * Created a Streamlit-based interface for real-time scanning
 * Implemented unit tests to ensure rule accuracy
+
 
